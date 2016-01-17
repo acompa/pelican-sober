@@ -44,7 +44,7 @@ body {
 }
 
 header {
-  border-top: 4px solid #4271AE;
+  border-top: 4px solid #F5AB22;
   border-bottom: 1px solid #D6D6D6;
   height: 50px;
   line-height: 50px;
@@ -64,7 +64,7 @@ header {
 
 .sidebar {
   display: table-cell;
-  width: 25%;
+  width: 5%;
   padding: 0 20px 1em 3%;  
 }
 
@@ -153,8 +153,8 @@ a {
 
 a:hover, a:active {
   text-decoration: none;
-  border-bottom: 1px dotted #4271AE;
-  color: #4271AE;
+  border-bottom: 1px dotted #F5AB22;
+  color: #F5AB22;
 }
 
 .literal {
@@ -294,7 +294,7 @@ li.tag-4 { font-size: 110%; margin: 0 1em; }
 
 /* box border color */
 .box {
-  border-color:#D6D6D6; /* #4271AE */
+  border-color:#D6D6D6; /* #F5AB22 */
 }
 
 /* .box which contains only a list */

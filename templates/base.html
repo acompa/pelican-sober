@@ -67,15 +67,6 @@
 			    </aside>
 			  {% endif %}
 
-  	          <nav>
-	            <h2>Categories</h2>
-	            <ul>
-	              {% for cat, null in categories %}
-	                <li {% if cat == category %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-	              {% endfor %}
-	            </ul>
-	          </nav>
-
 	          {% if SOCIAL %}
 	            <aside>
 	            <h2>Social</h2>
